@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "gema.security",
+      "type": "com.clickerclass.oauthserver.configuration.ConfigurationSecurity",
+      "sourceType": "com.clickerclass.oauthserver.configuration.ConfigurationSecurity"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gema.security.auth0",
+      "type": "com.clickerclass.oauthserver.configuration.properties.Auth0",
+      "sourceType": "com.clickerclass.oauthserver.configuration.ConfigurationSecurity"
+    },
+    {
+      "name": "gema.security.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.clickerclass.oauthserver.configuration.ConfigurationSecurity",
+      "defaultValue": false
+    },
+    {
+      "name": "gema.security.jwt",
+      "type": "com.clickerclass.oauthserver.configuration.properties.JWT",
+      "sourceType": "com.clickerclass.oauthserver.configuration.ConfigurationSecurity"
+    },
+    {
+      "name": "gema.security.path",
+      "type": "java.lang.String",
+      "sourceType": "com.clickerclass.oauthserver.configuration.ConfigurationSecurity"
+    },
+    {
+      "name": "gema.security.uri",
+      "type": "java.lang.String",
+      "sourceType": "com.clickerclass.oauthserver.configuration.ConfigurationSecurity"
+    }
+  ],
+  "hints": []
+}
