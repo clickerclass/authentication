@@ -1,0 +1,18 @@
+gema:
+  security:
+    uri: http://192.168.0.61:8080
+    path: /api/userwithpassword
+    enabled: true
+    jwt:
+      enabled: true
+      timeExpiration: 3000
+      secret: bTIyMTAyMDEzTS4u
+    auth0:
+      enabled: false
+      authorization:
+        frontAngular: pica2020..
+spring:
+  zipkin:
+    base-url: http://192.168.0.188:9411
+  application:
+    name: Auth0
